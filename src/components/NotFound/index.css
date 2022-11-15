@@ -1,0 +1,30 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.not-found-img {
+  width: 400px;
+}
+
+.go-to-home-button {
+  padding: 12px 24px;
+
+  color: #ffffff;
+  background: #0284c7;
+  border-radius: 12px;
+}
+
+.description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  text-align: center;
+
+  color: #475569;
+}

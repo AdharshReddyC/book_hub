@@ -1,0 +1,205 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  background-color: #e9f2f1;
+  width: 100vw;
+}
+
+@media screen and (min-width: 992px) {
+  .home-container {
+    align-items: center;
+  }
+}
+
+.header {
+  width: 100%;
+}
+.home-top-container {
+  width: 90%;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.fav-books-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  padding-left: 5px;
+  color: #1e293b;
+}
+
+.home-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 5px;
+
+  color: #475569;
+}
+
+.find-books-button {
+  text-align: center;
+  padding: 10px 20px;
+
+  width: 104px;
+  height: 36px;
+
+  background-color: #0284c7;
+  color: #f8fafc;
+  border-radius: 4px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 992px) {
+  .find-books-button {
+    display: none;
+  }
+}
+
+.findBooksButtonLarge {
+  text-align: center;
+  padding: 10px 20px;
+  margin: 25px;
+  width: 104px;
+  height: 36px;
+
+  background-color: #0284c7;
+  color: #f8fafc;
+  border-radius: 4px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 992px) {
+  .findBooksButtonLarge {
+    display: none;
+  }
+}
+
+.find-books-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #f8fafc;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.slick-container {
+  width: 90%;
+  padding: 5%;
+  margin: 10%;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 0.443396px rgba(40, 41, 61, 0.08),
+    0px 0.443396px 0.886792px rgba(96, 97, 112, 0.16);
+}
+
+.top-rated-heading {
+  padding: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+
+  color: #1e293b;
+}
+
+.link-item {
+  text-decoration: none;
+  text-align: center;
+}
+
+.sliderContainer {
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 992px) {
+  .sliderContainer {
+    width: 90%;
+  }
+}
+
+.slider-image {
+  width: 146px;
+  height: 99px;
+
+  border-radius: 2px;
+  margin: 5px;
+}
+
+.slider-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+
+  text-align: center;
+
+  color: #334155;
+}
+
+.slider-author {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+
+  text-align: center;
+
+  color: #475569;
+}
+
+.slick-container {
+  width: 80%;
+  max-width: 1100px;
+  margin-top: 10px;
+}
+
+.slick-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+}
+.slider-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-image {
+  margin: 10px;
+
+  height: 100px;
+  width: 100px;
+}
+
+/* You can change the CSS color to style the Next and 
+Previous Arrow buttons according to your project */
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.footer {
+  width: 100%;
+  background-color: #e5e5e5;
+}

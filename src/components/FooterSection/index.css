@@ -1,0 +1,30 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9f2f1;
+  margin: 20px;
+}
+
+.icon-container {
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+}
+
+.icon {
+  margin: 3px;
+  background-color: transparent;
+  border: none;
+}
+
+.contact-us {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #3d3c3c;
+}
